@@ -8,6 +8,10 @@
 .mm-panel {
   font-size: $brFontSizeSmaller;
 }
+#mm-blocker,
+.mm-slideout {
+  z-index: $brZindexFullscreen + 2;
+}
 .mm-panel h1 {
   margin-top: 0;
   color: $brColorThemeBlueDarker;
@@ -18,7 +22,6 @@
 html.mm-background .BookReader {
   background-color: $brColorMainBg;
 }
-
 
 .BRmobileMenu {
   button { -webkit-appearance: initial; }
